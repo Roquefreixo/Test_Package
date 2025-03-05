@@ -17,16 +17,8 @@
 
       <div id="frame-slider-container" ref="sliderContainer">
         <button id="prev" type="button" class="arrow-button">&lt;</button> 
-        <input
-          type="range"
-          id="frame-slider"
-          :min="0"
-          :max="maxFrames"
-          v-model="currentFrame"
-          @input="onFrameSliderChange"
-        />
+
         <button id="next" type="button" class="arrow-button">&gt;</button> 
-        <span id="frame-info">Frame: {{ currentFrame }} / {{ maxFrames }}</span>
         <input type="text" id="frame" >
 
         <div id="button-goFrame-container" class="tooltip-container">
