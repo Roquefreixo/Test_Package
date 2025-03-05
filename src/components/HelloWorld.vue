@@ -3,14 +3,12 @@
     <a id="toolbox"></a>
     <div id="button-showall-container" class="tooltip-container">
       <button id="show_all" type="button" class="styled-button">
-        <img src="@/assets/showall_icon.png" alt="Clickable Image" style="width: 35px; height: 20px;">
       </button> 
       <span id="tooltip-showall" class="tooltip"></span>
     </div>
 
       <div id="button-delete-container" class="tooltip-container">
         <button id="delete" type="button" class="styled-button2">
-          <img src="@/assets/delete_icon.png" alt="Clickable Image" class="white-image" style="width: 15px; height: 15px;">
         </button> 
         <span id="tooltip-delete" class="tooltip"></span>
       </div>
@@ -23,7 +21,6 @@
 
         <div id="button-goFrame-container" class="tooltip-container">
           <button id="go" type="button" class="styled-button1">
-            <img src="@/assets/arrow_icon.png" alt="Clickable Image" class="white-image" style="width: 15px; height: 15px;">
           </button> 
           <span id="tooltip-goFrame" class="tooltip"></span>
         </div>
@@ -32,14 +29,12 @@
 
       <div id="button-save-container" class="tooltip-container">
         <button id="saveAnnotations" type="button" class="styled-button1">
-          <img src="@/assets/save_icon.png" alt="Clickable Image" class="white-image" style="width: 15px; height: 15px;">
         </button> 
         <span id="tooltip-save" class="tooltip"></span>
       </div>
 
       <div id="button-download-container" class="tooltip-container">
         <button id="loadAnnotations" type="button" class="styled-button1">
-          <img src="@/assets/download_icon.png" alt="Clickable Image" class="white-image" style="width: 15px; height: 15px;">
         </button>
         <span id="tooltip-download" class="tooltip"></span>
       </div>
