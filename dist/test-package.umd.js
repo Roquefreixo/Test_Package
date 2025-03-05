@@ -129,21 +129,15 @@ if (typeof window !== 'undefined') {
 
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__(274);
-;// ./node_modules/thread-loader/dist/cjs.js!./node_modules/@vue/cli-plugin-babel/node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=template&id=026df483&scoped=true
+;// ./node_modules/thread-loader/dist/cjs.js!./node_modules/@vue/cli-plugin-babel/node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=template&id=167c98be&scoped=true
 
 const _hoisted_1 = {
-  id: "controls-container"
-};
-const _hoisted_2 = {
-  id: "frame-slider-container",
-  ref: "sliderContainer"
+  class: "hello"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementBlock)(external_commonjs_vue_commonjs2_vue_root_Vue_.Fragment, null, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementVNode)("div", _hoisted_1, [_cache[1] || (_cache[1] = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createStaticVNode)("<a id=\"toolbox\" data-v-026df483></a><div id=\"button-showall-container\" class=\"tooltip-container\" data-v-026df483><button id=\"show_all\" type=\"button\" class=\"styled-button\" data-v-026df483></button><span id=\"tooltip-showall\" class=\"tooltip\" data-v-026df483></span></div><div id=\"button-delete-container\" class=\"tooltip-container\" data-v-026df483><button id=\"delete\" type=\"button\" class=\"styled-button2\" data-v-026df483></button><span id=\"tooltip-delete\" class=\"tooltip\" data-v-026df483></span></div>", 3)), (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementVNode)("div", _hoisted_2, _cache[0] || (_cache[0] = [(0,external_commonjs_vue_commonjs2_vue_root_Vue_.createStaticVNode)("<button id=\"prev\" type=\"button\" class=\"arrow-button\" data-v-026df483>&lt;</button><button id=\"next\" type=\"button\" class=\"arrow-button\" data-v-026df483>&gt;</button><input type=\"text\" id=\"frame\" data-v-026df483><div id=\"button-goFrame-container\" class=\"tooltip-container\" data-v-026df483><button id=\"go\" type=\"button\" class=\"styled-button1\" data-v-026df483></button><span id=\"tooltip-goFrame\" class=\"tooltip\" data-v-026df483></span></div>", 4)]), 512), _cache[2] || (_cache[2] = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createStaticVNode)("<div id=\"button-save-container\" class=\"tooltip-container\" data-v-026df483><button id=\"saveAnnotations\" type=\"button\" class=\"styled-button1\" data-v-026df483></button><span id=\"tooltip-save\" class=\"tooltip\" data-v-026df483></span></div><div id=\"button-download-container\" class=\"tooltip-container\" data-v-026df483><button id=\"loadAnnotations\" type=\"button\" class=\"styled-button1\" data-v-026df483></button><span id=\"tooltip-download\" class=\"tooltip\" data-v-026df483></span></div><button id=\"loadNewLiver\" type=\"button\" data-v-026df483>Cargar nuevo higado</button><div id=\"versionDropdownContainer\" data-v-026df483></div>", 4))]), _cache[3] || (_cache[3] = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementVNode)("div", {
-    id: "content"
-  }, null, -1))], 64);
+  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementBlock)("div", _hoisted_1, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementVNode)("h1", null, (0,external_commonjs_vue_commonjs2_vue_root_Vue_.toDisplayString)($props.msg), 1), _cache[0] || (_cache[0] = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createStaticVNode)("<p data-v-167c98be> For a guide and recipes on how to configure / customize this project,<br data-v-167c98be> check out the <a href=\"https://cli.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>vue-cli documentation</a>. </p><h3 data-v-167c98be>Installed CLI Plugins</h3><ul data-v-167c98be><li data-v-167c98be><a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>babel</a></li><li data-v-167c98be><a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>eslint</a></li></ul><h3 data-v-167c98be>Essential Links</h3><ul data-v-167c98be><li data-v-167c98be><a href=\"https://vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>Core Docs</a></li><li data-v-167c98be><a href=\"https://forum.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>Forum</a></li><li data-v-167c98be><a href=\"https://chat.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>Community Chat</a></li><li data-v-167c98be><a href=\"https://twitter.com/vuejs\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>Twitter</a></li><li data-v-167c98be><a href=\"https://news.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>News</a></li></ul><h3 data-v-167c98be>Ecosystem</h3><ul data-v-167c98be><li data-v-167c98be><a href=\"https://router.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>vue-router</a></li><li data-v-167c98be><a href=\"https://vuex.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>vuex</a></li><li data-v-167c98be><a href=\"https://github.com/vuejs/vue-devtools#vue-devtools\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>vue-devtools</a></li><li data-v-167c98be><a href=\"https://vue-loader.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>vue-loader</a></li><li data-v-167c98be><a href=\"https://github.com/vuejs/awesome-vue\" target=\"_blank\" rel=\"noopener\" data-v-167c98be>awesome-vue</a></li></ul>", 7))]);
 }
-;// ./src/components/HelloWorld.vue?vue&type=template&id=026df483&scoped=true
+;// ./src/components/HelloWorld.vue?vue&type=template&id=167c98be&scoped=true
 
 ;// ./node_modules/thread-loader/dist/cjs.js!./node_modules/@vue/cli-plugin-babel/node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=script&lang=js
 /* harmony default export */ var HelloWorldvue_type_script_lang_js = ({
@@ -154,10 +148,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 });
 ;// ./src/components/HelloWorld.vue?vue&type=script&lang=js
  
-;// ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-54.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-54.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-54.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=style&index=0&id=026df483&scoped=true&lang=css
+;// ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-54.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-54.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-54.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=style&index=0&id=167c98be&scoped=true&lang=css
 // extracted by mini-css-extract-plugin
 
-;// ./src/components/HelloWorld.vue?vue&type=style&index=0&id=026df483&scoped=true&lang=css
+;// ./src/components/HelloWorld.vue?vue&type=style&index=0&id=167c98be&scoped=true&lang=css
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
 var exportHelper = __webpack_require__(163);
@@ -169,7 +163,7 @@ var exportHelper = __webpack_require__(163);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.A)(HelloWorldvue_type_script_lang_js, [['render',render],['__scopeId',"data-v-026df483"]])
+const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.A)(HelloWorldvue_type_script_lang_js, [['render',render],['__scopeId',"data-v-167c98be"]])
 
 /* harmony default export */ var HelloWorld = (__exports__);
 ;// ./src/main.js

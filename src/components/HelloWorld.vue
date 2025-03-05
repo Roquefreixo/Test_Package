@@ -1,50 +1,33 @@
 <template>
-  <div id="controls-container">
-    <a id="toolbox"></a>
-    <div id="button-showall-container" class="tooltip-container">
-      <button id="show_all" type="button" class="styled-button">
-      </button> 
-      <span id="tooltip-showall" class="tooltip"></span>
-    </div>
-
-      <div id="button-delete-container" class="tooltip-container">
-        <button id="delete" type="button" class="styled-button2">
-        </button> 
-        <span id="tooltip-delete" class="tooltip"></span>
-      </div>
-
-      <div id="frame-slider-container" ref="sliderContainer">
-        <button id="prev" type="button" class="arrow-button">&lt;</button> 
-
-        <button id="next" type="button" class="arrow-button">&gt;</button> 
-        <input type="text" id="frame" >
-
-        <div id="button-goFrame-container" class="tooltip-container">
-          <button id="go" type="button" class="styled-button1">
-          </button> 
-          <span id="tooltip-goFrame" class="tooltip"></span>
-        </div>
-
-      </div>
-
-      <div id="button-save-container" class="tooltip-container">
-        <button id="saveAnnotations" type="button" class="styled-button1">
-        </button> 
-        <span id="tooltip-save" class="tooltip"></span>
-      </div>
-
-      <div id="button-download-container" class="tooltip-container">
-        <button id="loadAnnotations" type="button" class="styled-button1">
-        </button>
-        <span id="tooltip-download" class="tooltip"></span>
-      </div>
-
-      <button id="loadNewLiver" type="button" >Cargar nuevo higado</button>           
-      <div id="versionDropdownContainer"></div>
-
-
+  <div class="hello">
+    <h1>{{ msg }}</h1>
+    <p>
+      For a guide and recipes on how to configure / customize this project,<br>
+      check out the
+      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+    </p>
+    <h3>Installed CLI Plugins</h3>
+    <ul>
+      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
+      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
+    </ul>
+    <h3>Essential Links</h3>
+    <ul>
+      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
+      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
+      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
+      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
+      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
+    </ul>
+    <h3>Ecosystem</h3>
+    <ul>
+      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
+      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
+      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
+      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
+      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
+    </ul>
   </div>
-  <div id="content" ></div>
 </template>
 
 <script>
